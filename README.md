@@ -17,7 +17,6 @@ Pycharm	2021
 # 数据库创建
 
 ```sql
-Copy code
 CREATE DATABASE IF NOT EXISTS laboratory
     DEFAULT CHARACTER SET utf8
 DEFAULT COLLATE utf8_general_ci;
@@ -37,7 +36,6 @@ DEFAULT COLLATE utf8_general_ci;
 数据库用户表SQL语句如下：
 
 ```sql
-Copy code
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user`  (
   `id` int(255) NOT NULL AUTO_INCREMENT,
